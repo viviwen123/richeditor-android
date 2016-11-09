@@ -29,6 +29,7 @@ android {
       debuggable false
       zipAlignEnabled true
       signingConfig signingConfigs.release
+      proguardFiles getDefaultProguardFile('proguard-android.txt'),'tbs-proguard-rules.pro'
     }
   }
 }
